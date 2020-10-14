@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Miles Hobby Blog</title>
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--Font Awesome CDN, for some icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <!--Google fonts CDN for Roboto Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet"> 
+    <!--CSS stylesheet-->
+    <link rel="stylesheet" href="assets/CSS/blog2Style.css">
+</head>
+<body>
+    <!--Nav bar with links to other armies-->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark ">
+        <a class="navbar-brand" href="blog2.html"><img src="assets/Images/adeptus-mechanicus.svg" width="50rem" height="50rem" alt="" id="icon"> The Miles Hobby Blog</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Armies
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Adeptus Mechanicus</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Scythes of the Emperor</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    
+    
+    
+    <div class="jumbotron container"><h1>The Miles Hobby Blog</h1></div>
+
+    <div id="introjack" class="container">
+        <p> My Name is Jack Miles and welcome to my Hobby Blog. I have been playing Tabletop wargames and painting models since I was around 12 years old.<br>
+        I started out playing the WWII game &quot;Flames of War&quot; developed by New Zealand Company <cite>Battlefront Miniatures Ltd</cite>.<br>
+        Shortly after starting I fell in love with Warhammer 40k and since then I have played a few different armies, namely Imperial Guard, Eldar, Adeptus Mechanicus and now Space Marines.<br></p>
+    </div>
+
+    <div class="row container" id="gallery" data-toggle="modal" data-target="#lightboxModal">
+      <div class="col-6 col-md-4">
+        <img class="w-100" src="assets/Images/admech1.jpg" data-target="#carousel" data-slide-to="0">
+      </div>
+      <div class="col-6 col-md-4">
+        <img class="w-100" src="assets/Images/admech2.jpg" data-target="#carousel" data-slide-to="1">
+      </div>
+      <div class="col-6 col-md-4">
+        <img class="w-100" src="assets/Images/aggressors.jpg" data-target="#carousel" data-slide-to="2">
+      </div>
+    </div>
+
+    <div class="modal modal-xl" tabindex="-1" id="lightboxModal">
+      <div class="modal-dialog modal-dialog-center modal-xl">
+        <div class="modal-content modal-xl border-0">
+          <div class="modal-header modal-xl border-0">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="assets/Images/admech1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/Images/admech2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="assets/Images/aggressors.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <p class="container"> I'm constanly working to improve my painting techniques. Each of my armies I paint I choose a technique to develop for with that army.<br>
+        I chose a white colour scheme for my Adeptus Mechanicus as white is a difficult colour to paint, it requires many thin layers and much patience!<br>
+        For my Space Marines I wanted to learn how to paint yellow, which is similar in difficulty to white. For this reason I chose to paint my Marines as the Scythes of the Emperor Chapter.<br>
+        The Scythes of the Emperor also have reallly cool lore dating all the way back to the Horus Heresy. They are featured in the HH book <cite>Pharos</cite> where they attempt to fight off a Night Lords invasion force hell-bent on claiming the Pharos device.
+        I'm unashamedly an Ultramarines fan(Fight me) and the idea of a first founding successor chapter related to the Space Roman Bois, along with great lore and a cool paint scheme solidified my decision to start the Scythes of the Emperor Chapter.<br>
+    </p>
+
+    <script src="assets/JS/blog2.js"></script>
+    <script src="assets/JS/lib/jquery-3.5.1.min.js"></script>
+    <script src="assets/JS/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+</body>
+</html>
